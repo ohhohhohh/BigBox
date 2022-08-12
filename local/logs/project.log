@@ -77,3 +77,13 @@
 2022-08-12T06:16:06.317Z - error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getGFXTexture') in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js
 2022-08-12T06:29:29.912Z - error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getGFXTexture') in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js
 2022-08-12T06:34:54.586Z - log: [vscode-workflow]: Chrome debug setting has been updated to /Users/mario/Desktop/BigBox\.vscode\launch.json, please install Debugger for Chrome VS Code extension to debug your project.
+2022-08-12T06:36:32.506Z - warn: Metrics: no valid info
+2022-08-12T06:36:32.763Z - error: Cannot read property 'send' of nullTypeError: Cannot read property 'send' of null
+    at Package.generate-preview-setting (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/browser/index.ccc:1:3607)
+    at Package.exec (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/package.ccc:1:4126)
+    at /Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/package/dist/browser/index.js:1:2922
+    at /Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-base-ipc/dist/sender.ccc:1:1789
+    at Array.forEach (<anonymous>)
+    at EventSender.immediately (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-base-ipc/dist/sender.ccc:1:1777)
+    at Immediate.<anonymous> (/Applications/CocosCreator/Creator/3.5.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-base-ipc/dist/sender.ccc:1:1578)
+    at processImmediate (internal/timers.js:461:21)
