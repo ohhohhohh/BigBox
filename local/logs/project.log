@@ -76,3 +76,4 @@
 2022-08-12T06:14:35.038Z - error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getGFXTexture') in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js
 2022-08-12T06:16:06.317Z - error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getGFXTexture') in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js
 2022-08-12T06:29:29.912Z - error: [Preview]Uncaught TypeError: Cannot read properties of null (reading 'getGFXTexture') in http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js
+2022-08-12T06:34:54.586Z - log: [vscode-workflow]: Chrome debug setting has been updated to /Users/mario/Desktop/BigBox\.vscode\launch.json, please install Debugger for Chrome VS Code extension to debug your project.

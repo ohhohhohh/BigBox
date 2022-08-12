@@ -2103,3 +2103,111 @@ debug: Resolve ../../core/manager/UIManager from file:///Users/mario/Desktop/Big
 debug: Resolve ../../enum/EScene from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts.
 debug: Resolve ../../enum/EUI from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
 debug: Target(preview) ends with cost 102.56183302402496ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:26:28 GMT+0800 (菲律宾标准时间), Current mtime: Thu Jan 01 1970 08:28:16 GMT+0800 (菲律宾标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts.
+debug: Detected change: file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts. Last mtime: Fri Aug 12 2022 14:32:07 GMT+0800 (菲律宾标准时间)@14cd75cc-3082-448b-b359-a445fbdb27b6, Current mtime: Fri Aug 12 2022 14:33:48 GMT+0800 (菲律宾标准时间)@14cd75cc-3082-448b-b359-a445fbdb27b6
+debug: Inspect file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as cce:/internal/x/cc.
+debug: Resolve ../../../../scripts/core/base/SceneBase from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/SceneBase.ts.
+debug: Resolve ../../../../scripts/core/manager/UIManager from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts.
+debug: Resolve ../../../../scripts/enum/EUI from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/bundles/hall/script/HallScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/bundles/hall/script/HallScene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_game.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_global.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_global.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_scene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_scene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_ui.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_ui.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_url.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_url.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/ModelBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/ModelBase.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/SceneBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/SceneBase.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/UIBase.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/AudioManager.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/EventManager.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/network/HttpRequest.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/network/HttpRequest.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UBundle.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UBundle.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/ULog.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/ULog.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UMath.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UNodeHelper.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UNodeHelper.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/URegex.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/URegex.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UString.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UString.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UTime.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UTime.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGame.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGame.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGlobal.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGlobal.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/main/AppHub.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/main/AppHub.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/main/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/main/MainScene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VCircle.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VCircle.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VMsgDialog.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VMsgDialog.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VTooltip.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VTooltip.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts.
+debug: Detected change: file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts. Last mtime: Fri Aug 12 2022 14:32:16 GMT+0800 (菲律宾标准时间)@0f0d52ae-9f6b-4b8e-b7fc-4829ead24669, Current mtime: Fri Aug 12 2022 14:33:50 GMT+0800 (菲律宾标准时间)@0f0d52ae-9f6b-4b8e-b7fc-4829ead24669
+debug: Inspect file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as cce:/internal/x/cc.
+debug: Resolve ../../core/base/UIBase from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/UIBase.ts.
+debug: Resolve ../../core/manager/UIManager from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts.
+debug: Resolve ../../enum/EScene from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts.
+debug: Resolve ../../enum/EUI from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
+debug: Target(editor) ends with cost 61.348291993141174ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:26:28 GMT+0800 (菲律宾标准时间), Current mtime: Thu Jan 01 1970 08:28:16 GMT+0800 (菲律宾标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts.
+debug: Detected change: file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts. Last mtime: Fri Aug 12 2022 14:32:07 GMT+0800 (菲律宾标准时间)@14cd75cc-3082-448b-b359-a445fbdb27b6, Current mtime: Fri Aug 12 2022 14:33:48 GMT+0800 (菲律宾标准时间)@14cd75cc-3082-448b-b359-a445fbdb27b6
+debug: Inspect file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as cce:/internal/x/cc.
+debug: Resolve ../../../../scripts/core/base/SceneBase from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/SceneBase.ts.
+debug: Resolve ../../../../scripts/core/manager/UIManager from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts.
+debug: Resolve ../../../../scripts/enum/EUI from file:///Users/mario/Desktop/BigBox/assets/bundles/games/runRocket/script/RunRocketScene.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/bundles/hall/script/HallScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/bundles/hall/script/HallScene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_game.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_global.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_global.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_scene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_scene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_ui.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_ui.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_url.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/config/cfg_url.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/ModelBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/ModelBase.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/SceneBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/SceneBase.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/UIBase.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/AudioManager.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/EventManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/EventManager.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/network/HttpRequest.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/network/HttpRequest.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UBundle.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UBundle.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/ULog.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/ULog.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UMath.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UNodeHelper.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UNodeHelper.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/URegex.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/URegex.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UString.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UString.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UTime.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/core/util/UTime.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGame.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGame.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGlobal.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EGlobal.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/main/AppHub.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/main/AppHub.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/main/MainScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/main/MainScene.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VCircle.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VCircle.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VMsgDialog.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VMsgDialog.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VTooltip.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/common/VTooltip.ts.
+debug: Resolve file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts from cce:/internal/x/prerequisite-imports as file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts.
+debug: Detected change: file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts. Last mtime: Fri Aug 12 2022 14:32:16 GMT+0800 (菲律宾标准时间)@0f0d52ae-9f6b-4b8e-b7fc-4829ead24669, Current mtime: Fri Aug 12 2022 14:33:50 GMT+0800 (菲律宾标准时间)@0f0d52ae-9f6b-4b8e-b7fc-4829ead24669
+debug: Inspect file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as cce:/internal/x/cc.
+debug: Resolve ../../core/base/UIBase from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/base/UIBase.ts.
+debug: Resolve ../../core/manager/UIManager from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/core/manager/UIManager.ts.
+debug: Resolve ../../enum/EScene from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EScene.ts.
+debug: Resolve ../../enum/EUI from file:///Users/mario/Desktop/BigBox/assets/scripts/ui/launch/VLaunch.ts as file:///Users/mario/Desktop/BigBox/assets/scripts/enum/EUI.ts.
+debug: Target(preview) ends with cost 61.64220800995827ms.
