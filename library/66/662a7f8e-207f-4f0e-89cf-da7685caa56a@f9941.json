@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tooltip_bg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 150,
+      "height": 40
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 150,
+      "height": 40
+    },
+    "rotated": false,
+    "capInsets": [
+      20,
+      0,
+      20,
+      0
+    ],
+    "texture": "662a7f8e-207f-4f0e-89cf-da7685caa56a@6c48a",
+    "packable": true
+  }
+}

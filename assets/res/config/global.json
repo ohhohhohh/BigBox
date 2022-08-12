@@ -1,0 +1,8 @@
+{
+    "environment": 0,
+    "version": "1.0.0",
+    "buildTime": "2022-08-11",
+    "enableLog": true,
+    "enableMainHot": false,
+    "enableGameHot": false
+}

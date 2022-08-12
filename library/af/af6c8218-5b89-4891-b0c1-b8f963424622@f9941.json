@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_close",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 121,
+      "height": 67
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 121,
+      "height": 67
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "af6c8218-5b89-4891-b0c1-b8f963424622@6c48a",
+    "packable": true
+  }
+}

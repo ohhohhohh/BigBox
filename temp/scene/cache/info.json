@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "arm64",
+        "cpu": "Apple M1",
+        "version": "Darwin Kernel Version 21.6.0: Sat Jun 18 17:05:47 PDT 2022; root:xnu-8020.140.41~1/RELEASE_ARM64_T8101"
+    },
+    "sceneListMap": {
+        "a71ee6b8-1882-4bf8-9949-dc5710121c2c": "/Users/mario/Desktop/BigBox/assets/scene/Main.scene"
+    },
+    "deviceMd5": "f947e2622c844583683b400eded650f0"
+}

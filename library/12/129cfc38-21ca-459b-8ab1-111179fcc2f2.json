@@ -1,0 +1,73 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "fx_xm_jiazai_tex",
+  "_objFlags": 0,
+  "_native": "",
+  "_atlasJson": "{\"width\":256,\"SubTexture\":[{\"width\":133,\"y\":1,\"height\":161,\"name\":\"di\",\"x\":1},{\"width\":87,\"y\":1,\"height\":94,\"name\":\"zhuan\",\"x\":136},{\"width\":29,\"y\":1,\"height\":28,\"name\":\"zi\",\"x\":225},{\"width\":29,\"y\":61,\"height\":28,\"name\":\"zi1\",\"x\":225},{\"width\":29,\"y\":31,\"height\":28,\"name\":\"zi2\",\"x\":225},{\"frameWidth\":14,\"y\":91,\"frameHeight\":14,\"width\":14,\"frameX\":0,\"height\":12,\"name\":\"zi3\",\"frameY\":-1,\"x\":225},{\"width\":63,\"y\":97,\"height\":54,\"name\":\"biao\",\"x\":136}],\"height\":164,\"name\":\"hhdz_load\",\"imagePath\":\"fx_xm_jiazai_tex.png\"}",
+  "_texture": {
+    "__uuid__": "55d3de9b-e5f8-42c4-a8d2-c1e0301e9b02@6c48a",
+    "__expectedType__": "cc.Texture2D"
+  },
+  "_atlasJsonData": {
+    "width": 256,
+    "SubTexture": [
+      {
+        "width": 133,
+        "y": 1,
+        "height": 161,
+        "name": "di",
+        "x": 1
+      },
+      {
+        "width": 87,
+        "y": 1,
+        "height": 94,
+        "name": "zhuan",
+        "x": 136
+      },
+      {
+        "width": 29,
+        "y": 1,
+        "height": 28,
+        "name": "zi",
+        "x": 225
+      },
+      {
+        "width": 29,
+        "y": 61,
+        "height": 28,
+        "name": "zi1",
+        "x": 225
+      },
+      {
+        "width": 29,
+        "y": 31,
+        "height": 28,
+        "name": "zi2",
+        "x": 225
+      },
+      {
+        "frameWidth": 14,
+        "y": 91,
+        "frameHeight": 14,
+        "width": 14,
+        "frameX": 0,
+        "height": 12,
+        "name": "zi3",
+        "frameY": -1,
+        "x": 225
+      },
+      {
+        "width": 63,
+        "y": 97,
+        "height": 54,
+        "name": "biao",
+        "x": 136
+      }
+    ],
+    "height": 164,
+    "name": "hhdz_load",
+    "imagePath": "fx_xm_jiazai_tex.png"
+  },
+  "_textureAtlasData": null
+}

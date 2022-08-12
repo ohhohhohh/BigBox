@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "global",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "environment": 0,
+    "version": "1.0.0",
+    "buildTime": "2022-08-11",
+    "enableLog": true,
+    "enableMainHot": false,
+    "enableGameHot": false
+  }
+}

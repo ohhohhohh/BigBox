@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_xm_jiazai_tex",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 253,
+      "height": 161
+    },
+    "offset": {
+      "x": -0.5,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 256,
+      "height": 164
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "55d3de9b-e5f8-42c4-a8d2-c1e0301e9b02@6c48a",
+    "packable": true
+  }
+}
