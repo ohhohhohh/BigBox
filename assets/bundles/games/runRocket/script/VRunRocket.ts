@@ -4,16 +4,16 @@ import UIManager from '../../../../scripts/core/manager/UIManager';
 import { EUIId } from '../../../../scripts/enum/EUI';
 const { ccclass, property } = _decorator;
 
-@ccclass('RunRocketCtrl')
-export class RunRocketCtrl extends SceneBase {
+@ccclass('VRunRocket')
+export class VRunRocket extends SceneBase {
 
     start() {
 
     }
 
     onClickTest() {
-        // UIManager.ins.openUI(EUIId.LAUNCH);
-        UIManager.ins.showCircle(3);
+        // UIManager.ins.showTip('99999999');
+        UIManager.ins.showMsgDialog('66666666666');
     }
 
     update(deltaTime: number) {

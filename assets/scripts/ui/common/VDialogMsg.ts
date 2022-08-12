@@ -1,11 +1,12 @@
 import { Label, Node, _decorator } from "cc";
 import UIBase from "../../core/base/UIBase";
-import { EDialogMsgType } from "../../enum/EUI";
+import UIManager from "../../core/manager/UIManager";
+import { EDialogMsgType, EUICacheMode, EUIId } from "../../enum/EUI";
 
 const { ccclass, property } = _decorator;
 
-@ccclass('VMsgDialog')
-export default class VMsgDialog extends UIBase {
+@ccclass('VDialogMsg')
+export default class VDialogMsg extends UIBase {
 
     @property(Label) msgContentLbl: Label = null;
     @property(Node) ok: Node = null;
@@ -63,7 +64,7 @@ export default class VMsgDialog extends UIBase {
         if (this._okCallback) {
             this._okCallback();
         }
-        this.close();
+        UIManager.ins.closeUI(EUIId.DIALOG_MSG, EUICacheMode.REUSABLE);
     }
 
     /**点击取消 */
@@ -71,7 +72,7 @@ export default class VMsgDialog extends UIBase {
         if (this._cancelCallback) {
             this._cancelCallback();
         }
-        this.close();
+        UIManager.ins.closeUI(EUIId.DIALOG_MSG, EUICacheMode.REUSABLE);
     }
 
     /**点击关闭 */
@@ -79,6 +80,6 @@ export default class VMsgDialog extends UIBase {
         if (this._closeCallback) {
             this._closeCallback();
         }
-        this.close();
+        UIManager.ins.closeUI(EUIId.DIALOG_MSG, EUICacheMode.REUSABLE);
     }
 }

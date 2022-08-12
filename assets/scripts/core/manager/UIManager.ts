@@ -5,13 +5,11 @@ import { ESceneType } from "../../enum/EScene";
 import { EDialogMsgType, EUICacheMode, EUIId } from "../../enum/EUI";
 import AppHub from "../../main/AppHub";
 import VCircle from "../../ui/common/VCircle";
-import VMsgDialog from "../../ui/common/VMsgDialog";
 import VTooltip from "../../ui/common/VTooltip";
 import { SceneBase } from "../base/SceneBase";
 import UIBase from "../base/UIBase";
 import UBundle from "../util/UBundle";
 import ULog from "../util/ULog";
-
 
 /**
  * UI管理类
@@ -61,7 +59,7 @@ export default class UIManager {
      * @param data 数据
      * @param enableCircle 是否显示转圈加载加载
      */
-    openScene(sceneType: ESceneType, data?: any, onProgress?: Function, onComplete?: Function, enableCircle: boolean = true) {
+    loadScene(sceneType: ESceneType, data?: any, onProgress?: Function, onComplete?: Function, enableCircle: boolean = true) {
         let cfgScene = cfg_scene[sceneType];
         if (!cfgScene) {
             ULog.error('loadScene cfg_ui没有对应配置! sceneType:', sceneType);
@@ -146,9 +144,9 @@ export default class UIManager {
                     this._prefabCachePool[uiId] = asset;
                     if (uiClass) {
                         uiClass.init(uiId);
-                        uiClass.show(data);
                         uiClass.setParent(this._uiRoot);
                         uiClass.setZIndex(cfgUi.zIndex);
+                        uiClass.show(data);
                         this._uiRunningPool[uiId] = uiClass;
                     } else {
                         ULog.error('没有对应脚本 UIBase uiId:', uiId);
@@ -215,7 +213,7 @@ export default class UIManager {
                     delete this._uiCachePool[uiId];
                     break;
                 case EUICacheMode.RELEASE:
-                    //删除节点，删除缓存池对象，释放并删除预制体缓存
+                    //删除节点，删除缓存池对象，删除且释放预制体缓存
                     uiRunning.destroyMe();
                     this._prefabCachePool[uiId].decRef();
                     delete this._uiCachePool[uiId];
@@ -259,7 +257,7 @@ export default class UIManager {
      * @param msg 消息内容
      * @param dialogType 弹窗类型
      */
-    showDialogMsg(msg: string, dialogType: EDialogMsgType = EDialogMsgType.OK, okCallback?: Function, cancelCallback?: Function, closeCallback?: Function) {
+    showMsgDialog(msg: string, dialogType: EDialogMsgType = EDialogMsgType.OK, okCallback?: Function, cancelCallback?: Function, closeCallback?: Function) {
         let data = {
             msg: msg,
             dialogType: dialogType,
@@ -268,6 +266,11 @@ export default class UIManager {
             closeCallback: closeCallback
         }
         this.openUI(EUIId.DIALOG_MSG, data);
+    }
+
+    /**隐藏消息弹窗 */
+    hideMsgDialog() {
+        this.closeUI(EUIId.DIALOG_MSG, EUICacheMode.REUSABLE);
     }
 }
 
