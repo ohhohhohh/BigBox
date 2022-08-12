@@ -12,7 +12,8 @@ export class RunRocketCtrl extends SceneBase {
     }
 
     onClickTest() {
-        UIManager.ins.openUI(EUIId.LAUNCH);
+        // UIManager.ins.openUI(EUIId.LAUNCH);
+        UIManager.ins.showCircle(3);
     }
 
     update(deltaTime: number) {

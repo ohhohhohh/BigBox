@@ -23,7 +23,7 @@ export class VLaunch extends UIBase {
     }
 
     onClickTest() {
-        UIManager.ins.loadScene(ESceneType.RUN_ROCKET, null, (finish: number, total: number, item: AssetManager.RequestItem) => {
+        UIManager.ins.openScene(ESceneType.RUN_ROCKET, null, (finish: number, total: number, item: AssetManager.RequestItem) => {
             // ULog.log('loadScene RUN_ROCKET:', finish, '/', total);
             if (this._progress < finish / total) {
                 this._progress = finish / total;
@@ -31,12 +31,16 @@ export class VLaunch extends UIBase {
                 this.progressBar.fillRange = this._progress;
             }
         }, () => {
-            UIManager.ins.closeUI(EUIId.LAUNCH, EUICacheMode.REUSABLE);
+            // UIManager.ins.closeUI(EUIId.LAUNCH, EUICacheMode.REUSABLE);
         });
+
+        // UIManager.ins.showTip('a aaaaaaaa')
     }
 
     onClickTest2() {
-        UIManager.ins.closeUI(EUIId.LAUNCH, EUICacheMode.REUSABLE);
+        // UIManager.ins.closeUI(EUIId.LAUNCH, EUICacheMode.REUSABLE);
+        // UIManager.ins.openUI(EUIId.LAUNCH);
+        UIManager.ins.showCircle(3);
     }
 
 

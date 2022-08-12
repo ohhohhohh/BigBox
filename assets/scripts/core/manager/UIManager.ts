@@ -4,6 +4,7 @@ import cfg_ui from "../../config/cfg_ui";
 import { ESceneType } from "../../enum/EScene";
 import { EDialogMsgType, EUICacheMode, EUIId } from "../../enum/EUI";
 import AppHub from "../../main/AppHub";
+import VCircle from "../../ui/common/VCircle";
 import VMsgDialog from "../../ui/common/VMsgDialog";
 import VTooltip from "../../ui/common/VTooltip";
 import { SceneBase } from "../base/SceneBase";
@@ -38,8 +39,8 @@ export default class UIManager {
 
     /**公共文本提示 */
     private _tooltip: VTooltip = null;
-    /**公共消息弹窗 */
-    private _msgDialog: VMsgDialog = null;
+    /**公共转圈圈 */
+    private _circle: VCircle = null;
 
     init(rootNode: Node) {
         this._uiRunningPool = {};
@@ -48,7 +49,10 @@ export default class UIManager {
         this._sceneRoot = rootNode.getChildByName('sceneRoot');
         this._uiRoot = rootNode.getChildByName('uiRoot');
         this._tooltip = rootNode.getChildByName('tooltip').getComponent(VTooltip);
-        // this._msgDialog = rootNode.getChildByName('msgDialog').getComponent(VMsgDialog);
+        this._circle = rootNode.getChildByName('circle').getComponent(VCircle);
+
+        this._tooltip.init();
+        this._circle.init();
     }
 
     /**
@@ -57,7 +61,7 @@ export default class UIManager {
      * @param data 数据
      * @param enableCircle 是否显示转圈加载加载
      */
-    loadScene(sceneType: ESceneType, data?: any, onProgress?: Function, onComplete?: Function, enableCircle: boolean = true) {
+    openScene(sceneType: ESceneType, data?: any, onProgress?: Function, onComplete?: Function, enableCircle: boolean = true) {
         let cfgScene = cfg_scene[sceneType];
         if (!cfgScene) {
             ULog.error('loadScene cfg_ui没有对应配置! sceneType:', sceneType);
@@ -68,6 +72,21 @@ export default class UIManager {
         if (AppHub.ins.runningBundleName && AppHub.ins.runningBundleName != cfgScene.bundleName) {
             UBundle.releaseBundle(AppHub.ins.runningBundleName);
         }
+
+        //跳转场景关闭所有运行中界面
+        // ULog.log('444 openUI _uiRunningPool ', this._uiRunningPool)
+        // ULog.log('444 openUI _uiCachePool ', this._uiCachePool)
+        // ULog.log('444 openUI _prefabCachePool ', this._prefabCachePool)
+        // for (const key in this._uiRunningPool) {
+        //     if (Object.prototype.hasOwnProperty.call(this._uiRunningPool, key)) {
+        //         let uiRunning = this._uiRunningPool[key];
+        //         this.closeUI(uiRunning.uiId);
+        //     }
+        // }
+        // ULog.log('555 openUI _uiRunningPool ', this._uiRunningPool)
+        // ULog.log('555 openUI _uiCachePool ', this._uiCachePool)
+        // ULog.log('555 openUI _prefabCachePool ', this._prefabCachePool)
+
 
         enableCircle && this.showCircle();
         UBundle.loadBundleRes(cfgScene.bundleName, cfgScene.resPath,
@@ -227,12 +246,12 @@ export default class UIManager {
      * @param showTime 展示时间
      */
     showCircle(showTime?: number) {
-        // this._waiting.show(showTime);
+        this._circle.show(showTime);
     }
 
     /**隐藏转圈加载 */
     hideCircle() {
-        // this._waiting.hide();
+        this._circle.hide();
     }
 
     /**

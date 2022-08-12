@@ -10,7 +10,7 @@ const { ccclass, property } = _decorator;
 @ccclass('VCircle')
 export default class VCircle extends Component {
 
-    /**定时器 */
+    /**定时器id */
     private _timerId: number = 0;
 
     init() {
@@ -25,7 +25,7 @@ export default class VCircle extends Component {
         this._timerId = UTime.countDown(time, () => {
             this.hide();
         }, (leftTime: number) => {
-            ULog.debug('VCircleLoading leftTime:', leftTime);
+            ULog.log('VCircle leftTime:', leftTime);
         });
     }
 

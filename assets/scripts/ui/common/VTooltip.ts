@@ -17,6 +17,11 @@ export default class VTooltip extends Component {
     @property({ tooltip: '是否展示提示文本移动动作' })
     enableMoveAni: boolean = true;
 
+    init() {
+        this.node.active = true;
+        this.hide();
+    }
+
     show(text: string) {
         if (typeof (text) === 'string' && text !== '') {
             let node = this.bgNode;
@@ -38,7 +43,7 @@ export default class VTooltip extends Component {
                 .by(1.0, { position: new Vec3(0, moveDis, 0) }, { easing: 'sineOut' })
                 .start()
             tween(node.getComponent(UIOpacity))
-                .delay(1.0)
+                .delay(2.0)
                 .to(1.0, { opacity: 0 })
                 .call(() => {
                     if (this.enableMulti) {
