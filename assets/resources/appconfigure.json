@@ -1,0 +1,27 @@
+{
+    "id": "10001",
+    "name": "\u670b\u53cb\u5708",
+    "template": "001",
+    "package": "com.niubo.fun",
+    "development": "sit",
+    "developmentModel": "0",
+    "environment": {
+        "debug": {},
+        "sit": {},
+        "uat": {},
+        "formal": {}
+    },
+    "packetId": 1,
+    "hotUpdateUrl": "",
+    "mainVersion": 20220613,
+    "appVersion": "2.0.4",
+    "hotVersion": "4.0.0.40",
+    "jPushAppKeyIOS": "cf4819f07003355e72dbf376",
+    "jPushAppKeyAndroid": "",
+    "wechatAppId_ios": "",
+    "wechatAppSecret_ios": "",
+    "wechatAppId_android": "",
+    "wechatAppSecret_android": "",
+    "channelCode": "",
+    "dns": ""
+}
