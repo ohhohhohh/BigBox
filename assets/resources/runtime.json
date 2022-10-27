@@ -1,0 +1,30 @@
+{
+    "version": "4.0.0.42", 
+    "environment": {
+        "debug": {
+            "companyID": "5a%60e", 
+            "accountPath": "http://10.170.0.8:8080/lq_nmw_login", 
+            "ossUrl": "https://test-checkverison.oss-cn-hongkong.aliyuncs.com/hotabcde.txt", 
+            "merchant": "pyqdev"
+        }, 
+        "sit": {
+            "companyID": "5a%60e", 
+            "accountPath": "http://35.220.132.223:8080/lq_nmw_login", 
+            "ossUrl": "https://test-checkverison.oss-cn-hongkong.aliyuncs.com/hotabcde.txt", 
+            "merchant": "pyqdev"
+        }, 
+        "uat": {
+            "companyID": "5a%60e", 
+            "accountPath": "http://34.92.225.212:8080", 
+            "ossUrl": "https://test-checkverison.oss-cn-hongkong.aliyuncs.com/hotabcde.txt", 
+            "merchant": "pyq"
+        }, 
+        "formal": {
+            "companyID": "5a%60e", 
+            "accountPath": "http://ac1.erqzr.com:9919", 
+            "ossUrl": "https://qqc2021.oss-accelerate.aliyuncs.com/hotabcdef.txt", 
+            "merchant": "pyq"
+        }
+    }, 
+    "modules": {}
+}
